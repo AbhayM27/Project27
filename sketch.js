@@ -61,7 +61,7 @@ function draw() {
 
 
   if(keyDown(UP_ARROW)) {
-	Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-205,y:-100});
+	Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-40,y:-45});
 }
 
   drawSprites();
